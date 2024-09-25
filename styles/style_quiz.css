@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Tomato Font";
+    src: url("/fonts/Tomato Regular.ttf")
+}
+
+
+.travis_font {
+    font-family: "Tomato Font";
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.title {
+    display: flex;
+    position: sticky;
+    white-space: nowrap;
+    top: 15px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: solid;
+    color: E4E6C3;
+    backdrop-filter: blur(5px);
+}
+
+.top {
+    display: flex;
+    border: solid;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.question_titre {
+    text-align: center;
+    font-family: "Tomato Font";
+    padding: 2%;
+    margin: 2%;
+    border: solid;
+}
+
+.question_image{
+    border: solid;
+}
+
+.question {
+    display: flex;
+    padding: 4%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border: solid;
+}
+
+.question_image_div {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.reponse {
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+}
+
+button {
+    font-size: 150%;
+    font-family: "Tomato Font";
+    height: 75px;
+    width: 75px;
+    border-radius: 12px;
+    margin: 1%;
+    cursor: crosshair;
+}
+
+button:hover{
+    background-color: #484A47;
+    color: E4E6C3;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+input {
+    border-radius: 5px;
+    font-family: "Tomato Font";
+    height: 50px;
+    width: 400px;
+    padding: 1%;
+}
+
+#button3 {
+    height: 90px;
+    width: 150px;
+}
+
+.credits {
+    text-align: center;
+    font-size: 12;
+    padding: 0%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: solid;
+
+}
+/* RATIO */
+
+#Q2 {
+    display: none;
+}
+
+#Q3 {
+    display: none;
+}

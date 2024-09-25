@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Tomato Font";
+    src: url("/fonts/Tomato\ Regular.ttf")
+}
+
+.travis_font {
+    font-family: "Tomato Font";
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    position: sticky;
+    white-space: nowrap;
+    top: 15px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: solid;
+    color: E4E6C3;
+    backdrop-filter: blur(5px);
+}
+
+h2 {
+    text-align: center;
+}
+
+.reponses {
+    border: solid;
+}

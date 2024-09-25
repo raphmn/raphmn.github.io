@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVIS SCOTT - QUIZ</title>
+    <link rel="stylesheet" href="styles/style_quiz.css">
+    <link rel="icon" href="media/icon.png">
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1 class="travis_font">ASTROWORLD TOUR</h1>
+    </div>
+    <div class="top">
+        <h1 class="travis_font">QUIZ TRAVIS SCOTT</h1>
+        <p>Dans ce quiz, vous devrez répondre à 3 questions sur Travis Scott et ses albums</p>
+        <a href="index.html"><p>Retourner à la page d'acceuil</p></a>
+        <img src="/media/cactus-jack.gif">
+    </div>
+    <form onsubmit="return reponseQ3()" action="scripts/index.php" method="POST">
+        <div class="question" id="Q1">
+            <div class="question_titre">
+                <h2>Question numéro 1</h2>
+                <p>Qui feat avec Travis Scott sur le titre "Nightcralwer" de l'album Rodeo ?</p>
+            </div>
+            <div class="question_image_div">
+                <div class="question_image">
+                    <img src="/media/Q1/post_malone.png">
+                    <p>Post Malone</p>
+                </div>
+                <div class="question_image">
+                    <img src="/media/Q1/swae_lee.png">
+                    <p>Swae Lee</p>
+                </div>
+                <div class="question_image">
+                    <img src="/media/Q1/the_weekend.png">
+                    <p>The Weekend</p>
+                </div>
+            </div>
+            <div class="reponse">
+                <input name="rep1" id="rep1" type="text" placeholder="Réponse 1">
+                <button type="button" onclick="reponseQ1()">→</button>
+            </div>
+        </div>
+        <div class="question" id="Q2">
+            <div class="question_titre">
+                <h2>Question numéro 2</h2>
+                <p>Quel est le nom de l'album dont la cover apparait au dessus ?</p>
+            </div>
+            <div class="question_image_div">
+                <div class="question_image">
+                    <img src="/media/Q2/Bird_In_The_Trap_Sing_McKnight.png">
+                </div>
+            </div>
+            <div class="reponse">
+                <input name="rep2" id="rep2" type="text" placeholder="Réponse 2">
+                <button type="button" onclick="reponseQ2()">→</button>
+            </div>
+        </div>
+        <div class="question" id="Q3">
+            <div class="question_titre">
+                <h2>Question numéro 3</h2>
+                <p>Quel est le titre le plus écouté de l'album ASTROWORLD ?</p>
+            </div>
+            <div class="question_image_div">
+                <div class="question_image">
+                    <img src="/media/Q3/cant_say.png">
+                    <p>CAN'T SAY</p>
+                </div>
+                <div class="question_image">
+                    <img src="/media/Q3/sicko_mode.png">
+                    <p>SICKO MODE</p>
+                </div>
+                <div class="question_image">
+                    <img src="/media/Q3/fish.png">
+                    <p>ANTIDOTE</p>
+                </div>
+            </div>
+            <div class="reponse">
+                <input name="rep3" id="rep3" type="text" placeholder="Réponse 3">
+                <button id="button3" type="submit">Valider le quiz</button>
+            </div>
+        </div>
+    </form>
+    <div class="credits">
+        <p>Site Projet 5 NSI Raphael | Réalisé en HTML / CSS / JS / PHP</p>
+    </div>
+</body>
+</html>
